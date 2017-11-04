@@ -1,0 +1,21 @@
+<html>
+<head>
+<title>
+THE BOOK
+</title
+</head>
+<body>
+<div id="mf0"></div>
+<div id="mem" ></div><button onclick="activepg()">click me to load document</button>
+
+<script>
+function activepg(){
+var C=document.getElementById("mf0");
+for(m=0;m<802;m++){
+C.innerHTML="<img size='100%'src='["+m+"]Advanced_C.jpg' ></div><div id='mf"+m+1+"'></div>";
+C=document.getElementById("mf"+m+1);
+}
+}
+</script>
+</body>
+</html>
